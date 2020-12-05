@@ -1,3 +1,5 @@
+@import '/base';
+
 .breedsList{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -12,6 +14,9 @@
 
 .imagesContainer{
   margin: 2rem auto;
+  div{
+    background: $second-color;
+  }
 }
 
 .subBreeds__container{
