@@ -1,5 +1,6 @@
 @import '/base';
-body{
+body,
+html{
   margin: unset;
 }
 .navbar {
@@ -9,7 +10,6 @@ body{
   align-items: center;
   background: $third-color;
   padding: 8px;
-  width: 100vw;
   height: 30px;
   text-decoration: none;
   color: $default-font-color;
@@ -49,7 +49,7 @@ body{
   width: fit-content;
   border-radius: $default-border-radius;
   background: $second-color;
-  padding: 1rem 6rem;
+  padding: 1rem 4rem;
   margin: 4rem auto;
 }
 

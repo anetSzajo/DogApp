@@ -70,7 +70,7 @@ class BreedPage extends React.Component {
           <BreedImagesContainer images={this.state.images} breed={breed} subBreed={this.state.chosenSubBreedName}/>
           {(breed.subBreeds !== undefined && breed.subBreeds.length !== 0) ? (
             <div className="subBreeds__container">
-              <div className="subBreeds__container--title">Check {breed.breedName} subbreeds</div>
+              <div className="subBreeds__container--title">Available subbreeds</div>
               <div className={breed.subBreeds.length > 1 ? "subBreeds__container--elements" : "subBreeds__container--singleElement" }>
               {breed.subBreeds.map((subBreedName, index) => (
                 <SubBreed key={`${subBreedName}_${index}`} subBreedName={subBreedName} onClick={() =>this.fetchSubBreedPhotos(subBreedName)}/>
