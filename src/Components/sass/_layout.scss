@@ -1,0 +1,48 @@
+.breedsList{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  Grid-column-gap: 10px;
+  Grid-row-gap: 10px;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  margin: 1rem 0.5rem;
+}
+
+.imagesContainer{
+  margin: 2rem auto;
+}
+
+.subBreeds__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 2rem auto;
+  .subBreeds__container--title{
+    padding: 1rem;
+    font-size: 22px;
+    margin: auto;
+  }
+  .subBreeds__container--elements{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    Grid-column-gap: 10px;
+    Grid-row-gap: 10px;
+  }
+}
+
+@media(min-width: 40rem){
+  .breedsList{
+    grid-template-columns: repeat(5, 1fr);
+    width: 70%;
+    margin: auto;
+  }
+  .imagesContainer{
+    max-width: 400px;
+  }
+  .subBreed__container{
+    width: 30%;
+  }
+}
+
