@@ -49,7 +49,7 @@ filteringResults = () => {
     if (this.state.loaded) {
       return (
         <div className="breedsListPage">
-            <h2>Dog Breeds</h2>
+            <h2>Check dog breeds</h2>
           <FilterByBreed 
             handleBreedChange={this.handleBreedChange}
           />
