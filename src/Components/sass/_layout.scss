@@ -26,7 +26,7 @@
   }
   .subBreeds__container--elements{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     Grid-column-gap: 10px;
     Grid-row-gap: 10px;
   }
@@ -41,8 +41,17 @@
   .imagesContainer{
     max-width: 400px;
   }
-  .subBreed__container{
-    width: 30%;
+  .subBreeds__container,
+  .subBreeds__container--elements{
+    width: 64%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .subBreeds__container--singleElement{
+    width: 54%;
+    margin: auto;
   }
 }
+
+
 

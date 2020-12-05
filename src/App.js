@@ -14,7 +14,7 @@ export default function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/breed" component={BreedPage} />
+          <Route exact path="/:breedKey" component={BreedPage} />
         </Switch>
       </Router>
       <Footer />

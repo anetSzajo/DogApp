@@ -19,7 +19,7 @@ class BreedsListElement extends React.Component {
       return (
         <Redirect push
           to={{
-            pathname: "/breed",
+            pathname: `/${this.props.breed.breedName}`,
             state: { breed: this.props.breed }
           }}
         />
