@@ -1,5 +1,9 @@
 @import '/base';
 
+.breedsList__container {
+  margin: 4rem auto;
+}
+
 .breedsList{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -16,6 +20,10 @@
   margin: 2rem auto;
   div{
     background: $fourth-color;
+  }
+  h4,
+  span{
+    font-family: $default-font;
   }
 }
 

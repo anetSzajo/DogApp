@@ -1,8 +1,11 @@
 @import '/base';
+
 body,
-html{
+html {
   margin: unset;
+  font-family: $default-font;
 }
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -13,6 +16,7 @@ html{
   height: 30px;
   text-decoration: none;
   color: $default-font-color;
+
   .appLogo {
     width: 1.5rem;
     height: 1.5rem;
@@ -23,15 +27,16 @@ html{
   }
 }
 
-.footer{
+.footer {
   background-color: $fifth-color;
   opacity: 0.8;
   font-size: 11px;
   position: fixed;
   bottom: 0;
-  left:0;
+  left: 0;
   width: 100vw;
-  p{
+
+  p {
     margin: 0;
     text-align: left;
     padding: 1px 0 2px 4px;
@@ -39,39 +44,36 @@ html{
   }
 }
 
-.searchInput{
+.searchInput {
   width: max-content;
   margin: auto;
   padding-bottom: 2rem;
 }
-.breedsListPage h2{
+
+.breedsListPage h2 {
   font-size: 20px;
   width: fit-content;
   border-radius: $default-border-radius;
   background: $second-color;
   padding: 1rem 4rem;
   margin: 4rem auto;
-}
-
-.breedsList__container{
-  margin: 4rem auto;
+  font-family: $default-font;
 }
 
 .breedsList__element,
-.subBreedsList__element{
+.subBreedsList__element {
   padding: 4px;
   width: -webkit-fill-available;
   height: 6rem;
 
-  button{
+  button {
     width: 100%;
     height: 100%;
-    //border: 1px solid $third-color;
-    //background: $fourth-color;
     border-radius: 12px;
     border: none;
     background: $main-color;
     font-size: 10px;
+    font-family: $default-font;
   }
 }
 

@@ -2,11 +2,11 @@ import React from "react";
 import '../../main.scss';
 
 function Footer() {
-  return (
-      <div className="footer">
-        <p>&copy; A.Sz.</p>
-      </div>
-  )
+    return (
+        <div className="footer">
+            <p>&copy; A.Szajowska</p>
+        </div>
+    )
 }
 
 export default Footer;
